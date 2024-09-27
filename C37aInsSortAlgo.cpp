@@ -6,7 +6,7 @@ void insertionSort(vector<int> &v){
     int n = v.size();
     for ( int i = 1; i < n;  i++){
         int current = v[i];
-        //Fnd correct position for current element
+        //FInd correct position for current element
         int j = i-1;    
         while(j>=0 && v[j]>current){
             v[j+1] = v[j];
